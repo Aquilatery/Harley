@@ -15,7 +15,7 @@
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageReleaseNotes>Minor bugs fixed.
 Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageReleaseNotes>
-    <PackageTags>Harley Taiizor C# CSharp DotNet</PackageTags>
+    <PackageTags>Harley Taiizor Soferity C# CSharp DotNet</PackageTags>
     <PackageProjectUrl>https://github.com/Taiizor/Harley</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/Taiizor/Harley</RepositoryUrl>
