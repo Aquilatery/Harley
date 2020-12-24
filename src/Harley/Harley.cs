@@ -11,8 +11,8 @@ using Harley.Enum.Transition;
 //     Creator: Taiizor
 //     Website: www.Taiizor.com
 //     Created: 16.Aug.2020
-//     Changed: 24.Dec.2020
-//     Version: 1.0.0.1
+//     Changed: 25.Dec.2020
+//     Version: 1.0.0.2
 //
 // |---------DO-NOT-REMOVE---------|
 
