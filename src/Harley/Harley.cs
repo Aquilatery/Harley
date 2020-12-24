@@ -1,6 +1,8 @@
 ﻿#region Imports
 
 using System;
+using Harley.Util.Transition;
+using Harley.Enum.Transition;
 
 #endregion
 
@@ -21,6 +23,11 @@ namespace Harley
     public class Harley
     {
         public const string Author = "Taiizor";
+
+        public void Transition(object Control, RunTypes Run, Types Type)
+        {
+
+        }
     }
 
     #endregion
