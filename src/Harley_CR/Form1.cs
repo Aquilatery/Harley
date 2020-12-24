@@ -14,7 +14,7 @@ namespace Harley_CR
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Animate.Window(Handle, Speed.TwoSecond, Direction.Center);
+            Animate.Window(Handle, Speed.FiveHundred, Direction.Center);
         }
     }
 }

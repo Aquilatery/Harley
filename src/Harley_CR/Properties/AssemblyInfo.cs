@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("Harley_CR")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Harley CR")]
+[assembly: AssemblyDescription("Harley CR v1.0.0.0")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Harley_CR")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Taiizor")]
+[assembly: AssemblyProduct("Harley CR")]
+[assembly: AssemblyCopyright("Copyright © 2020 Taiizor")]
+[assembly: AssemblyTrademark("Harley")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri

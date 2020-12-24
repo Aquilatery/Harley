@@ -1,5 +1,4 @@
-﻿
-namespace Harley_CR
+﻿namespace Harley_CR
 {
     partial class Form1
     {
@@ -29,105 +28,107 @@ namespace Harley_CR
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            button1 = new System.Windows.Forms.Button();
+            comboBox1 = new System.Windows.Forms.ComboBox();
+            groupBox1 = new System.Windows.Forms.GroupBox();
+            radioButton1 = new System.Windows.Forms.RadioButton();
+            vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            textBox1 = new System.Windows.Forms.TextBox();
+            progressBar1 = new System.Windows.Forms.ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(72, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new System.Drawing.Point(72, 45);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(346, 316);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new System.Drawing.Point(346, 316);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new System.Drawing.Size(121, 21);
+            comboBox1.TabIndex = 1;
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(35, 293);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            groupBox1.Location = new System.Drawing.Point(35, 293);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new System.Drawing.Size(200, 100);
+            groupBox1.TabIndex = 2;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(358, 135);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new System.Drawing.Point(358, 135);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new System.Drawing.Size(85, 17);
+            radioButton1.TabIndex = 3;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "radioButton1";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(299, 190);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 80);
-            this.vScrollBar1.TabIndex = 4;
+            vScrollBar1.Location = new System.Drawing.Point(299, 190);
+            vScrollBar1.Name = "vScrollBar1";
+            vScrollBar1.Size = new System.Drawing.Size(17, 80);
+            vScrollBar1.TabIndex = 4;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Red;
-            this.pictureBox1.Location = new System.Drawing.Point(331, 392);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 68);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.BackColor = System.Drawing.Color.Red;
+            pictureBox1.Location = new System.Drawing.Point(331, 392);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(100, 68);
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 6;
+            textBox1.Location = new System.Drawing.Point(299, 45);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new System.Drawing.Size(100, 20);
+            textBox1.TabIndex = 6;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(85, 135);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(100, 23);
-            this.progressBar1.TabIndex = 7;
-            this.progressBar1.Value = 50;
+            progressBar1.Location = new System.Drawing.Point(85, 135);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new System.Drawing.Size(100, 23);
+            progressBar1.TabIndex = 7;
+            progressBar1.Value = 50;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 473);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.vScrollBar1);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(496, 473);
+            Controls.Add(progressBar1);
+            Controls.Add(textBox1);
+            Controls.Add(pictureBox1);
+            Controls.Add(vScrollBar1);
+            Controls.Add(radioButton1);
+            Controls.Add(groupBox1);
+            Controls.Add(comboBox1);
+            Controls.Add(button1);
+            Icon = ((System.Drawing.Icon)(resources.GetObject("$Icon")));
+            Name = "Form1";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "Form1";
+            Load += new System.EventHandler(Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
@@ -143,4 +144,3 @@ namespace Harley_CR
         private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
-
