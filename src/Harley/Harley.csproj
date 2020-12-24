@@ -1,32 +1,40 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!--<TargetFramework>net48</TargetFramework>-->
+    <!--<TargetFrameworks>net48;net5.0-windows</TargetFrameworks>-->
+    <!--<TargetFrameworks>net40;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net5.0-windows</TargetFrameworks>-->
     <TargetFrameworks>net40;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;netstandard2.0;netstandard2.1;netcoreapp2.1;netcoreapp3.1;net5.0</TargetFrameworks>
     <!--<ApplicationIcon>Resources\ICO.ico</ApplicationIcon>-->
     <Version>1.0.0.1</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Title>Harley</Title>
+    <Title>$(PackageId)</Title>
     <PackageId>Harley</PackageId>
     <Authors>Taiizor</Authors>
-    <Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) Taiizor Inc.</Copyright>
-    <Description>C# Description - Harley</Description>
+    <Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) $(Authors)</Copyright>
+    <Description>Best with various WinForm transitions.
+C# WinForm Transition Library - $(PackageId)</Description>
+    <Description>C# WinForm Transition Library - Harley</Description>
     <PackageLicenseFile></PackageLicenseFile>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageReleaseNotes>Minor bugs fixed.
 Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageReleaseNotes>
-    <PackageTags>Harley Taiizor Soferity C# CSharp DotNet</PackageTags>
+    <PackageTags>Harley Taiizor Soferity C# CSharp DotNet Animation Transition WinForm</PackageTags>
     <PackageProjectUrl>https://github.com/Taiizor/Harley</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/Taiizor/Harley</RepositoryUrl>
     <PackageDescription>$(Description)</PackageDescription>
     <RepositoryUrl>https://github.com/Taiizor/Harley</RepositoryUrl>
     <!--<PackageIcon>HARLEY.png</PackageIcon>-->
-    <Company>Taiizor</Company>
-    <Owners>Taiizor</Owners>
+    <Company>$(Authors)</Company>
+    <Owners>$(Authors)</Owners>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <LangVersion>latest</LangVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <FileVersion>$(Version)</FileVersion>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
