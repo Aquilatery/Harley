@@ -7,6 +7,7 @@
 ![C-Sharp-Version](https://img.shields.io/badge/C%23-9.0-blue.svg)
 ![IDE-Version](https://img.shields.io/badge/IDE-VS2019-blue.svg)
 [![NuGet-Version](https://img.shields.io/nuget/v/Harley.svg)](https://www.nuget.org/packages/Harley)
+[![FuGet-Version](https://www.fuget.org/packages/Harley/badge.svg)](https://www.fuget.org/packages/Harley)
 [![NuGet](https://img.shields.io/nuget/dt/Harley)](https://www.nuget.org/api/v2/package/Harley)
 
 # Welcome to Harley
