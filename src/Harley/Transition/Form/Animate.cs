@@ -14,7 +14,7 @@ namespace Harley.Transition.Form
     {
         public static void Window(IntPtr hwand, Speed dwTime, Direction dwFlag)
         {
-            WinAPI.AnimateWindow(hwand, (int)dwTime, (int)dwFlag);
+            _ = WinAPI.AnimateWindow(hwand, (int)dwTime, (int)dwFlag);
         }
     }
 
