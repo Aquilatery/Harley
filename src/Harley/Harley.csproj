@@ -9,17 +9,21 @@
     <Version>1.0.0.2</Version>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Title>$(PackageId)</Title>
+    <Title>Harley</Title>
     <PackageId>Harley</PackageId>
     <Authors>Taiizor</Authors>
     <Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) $(Authors)</Copyright>
-    <Description>Best with various WinForm transitions.
+    <Summary>Best with various WinForm transitions.</Summary>
+    <Description>$(Summary)
 C# WinForm Transition Library - $(PackageId)</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <PackageReleaseNotes>Major bugs fixed.
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Minor changes have been made.
 Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageReleaseNotes>
     <PackageTags>Harley Taiizor Soferity C# CSharp DotNet Animation Transition WinForm WinForms</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!--<DocumentationFile>..\$(PackageId)\bin$(OutputPath)\$(Configuration)\$(TargetFramework)\$(PackageId).xml</DocumentationFile>-->
     <PackageProjectUrl>https://github.com/Taiizor/Harley</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/Taiizor/Harley</RepositoryUrl>
@@ -33,9 +37,13 @@ Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageRelea
     <NeutralLanguage>en</NeutralLanguage>
     <FileVersion>$(Version)</FileVersion>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU' OR '$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>

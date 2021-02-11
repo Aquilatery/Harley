@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
 [assembly: AssemblyTitle("Harley CR")]
-[assembly: AssemblyDescription("Harley CR v1.0.0.1")]
+[assembly: AssemblyDescription("Harley CR v1.0.0.2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Taiizor")]
 [assembly: AssemblyProduct("Harley CR")]
-[assembly: AssemblyCopyright("Copyright © 2020 Taiizor")]
+[assembly: AssemblyCopyright("Copyright © 2021 Taiizor")]
 [assembly: AssemblyTrademark("Harley")]
 [assembly: AssemblyCulture("")]
 
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // Tüm değerleri belirtebilir veya varsayılan Derleme ve Düzeltme Numaralarını kullanmak için
 // aşağıda gösterildiği gibi '*' kullanabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.0.2")]
+[assembly: AssemblyFileVersion("1.0.0.2")]
