@@ -1,8 +1,8 @@
 ﻿#region Imports
 
-using System;
-using Harley.Util.Transition;
 using Harley.Enum.Transition;
+using Harley.Util.Transition;
+using System;
 
 #endregion
 
@@ -11,7 +11,7 @@ using Harley.Enum.Transition;
 //     Creator: Taiizor
 //     Website: www.Taiizor.com
 //     Created: 16.Aug.2020
-//     Changed: 11.Feb.2021
+//     Changed: 14.Feb.2021
 //     Version: 1.0.0.2
 //
 // |---------DO-NOT-REMOVE---------|

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using Harley.Enum.Transition;
 using Harley.Transition.Form;
-using Harley.Enum.Transition;
+using System;
+using System.Windows.Forms;
 
 namespace Harley_CR
 {
