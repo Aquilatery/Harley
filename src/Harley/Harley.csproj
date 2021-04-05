@@ -15,13 +15,13 @@
     <Copyright>Copyright © $([System.DateTime]::Today.ToString(yyyy)) $(Authors)</Copyright>
     <Summary>Best with various WinForm transitions.</Summary>
     <Description>$(Summary)
-C# WinForm Transition Library - $(PackageId)</Description>
+.NET WinForm Transition Library - $(PackageId)</Description>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Minor changes have been made.
 Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageReleaseNotes>
-    <PackageTags>Harley Taiizor Soferity C# CSharp DotNet Animation Transition WinForm WinForms</PackageTags>
+    <PackageTags>Harley Taiizor Soferity C# CSharp VBC VB VisualBasic DotNET .NET NET Animation Transition WinForm WinForms</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!--<DocumentationFile>..\$(PackageId)\bin$(OutputPath)\$(Configuration)\$(TargetFramework)\$(PackageId).xml</DocumentationFile>-->
     <PackageProjectUrl>https://github.com/Taiizor/Harley</PackageProjectUrl>
