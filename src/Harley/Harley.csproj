@@ -28,7 +28,6 @@ Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageRelea
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/Taiizor/Harley</RepositoryUrl>
     <PackageDescription>$(Description)</PackageDescription>
-    <RepositoryUrl>https://github.com/Taiizor/Harley</RepositoryUrl>
     <PackageIcon>HARLEY.png</PackageIcon>
     <Company>$(Authors)</Company>
     <Owners>$(Authors)</Owners>
