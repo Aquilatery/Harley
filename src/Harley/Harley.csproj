@@ -48,7 +48,7 @@ Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageRelea
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub">
-      <Version>1.1.0</Version>
+      <Version>1.1.1</Version>
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
