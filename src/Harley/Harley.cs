@@ -1,8 +1,6 @@
 ﻿#region Imports
 
 using Harley.Enum.Transition;
-using Harley.Util.Transition;
-using System;
 
 #endregion
 
