@@ -21,7 +21,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Minor changes have been made.
 Changes are detailed at https://github.com/Taiizor/Harley/releases</PackageReleaseNotes>
-    <PackageTags>Harley Taiizor Soferity C# CSharp VBC VB VisualBasic DotNET .NET NET Animation Transition WinForm WinForms</PackageTags>
+    <PackageTags>Harley Taiizor Soferity Vegalya C# CSharp VBC VB VisualBasic DotNET .NET NET Animation Transition WinForm WinForms</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <!--<DocumentationFile>..\$(PackageId)\bin$(OutputPath)\$(Configuration)\$(TargetFramework)\$(PackageId).xml</DocumentationFile>-->
     <PackageProjectUrl>https://github.com/Taiizor/Harley</PackageProjectUrl>
