@@ -7,9 +7,9 @@ using Harley.Enum.Transition;
 // |---------DO-NOT-REMOVE---------|
 //
 //     Creator: Taiizor
-//     Website: www.Taiizor.com
+//     Website: www.Vegalya.com
 //     Created: 16.Aug.2020
-//     Changed: 26.Jan.2022
+//     Changed: 24.Mar.2022
 //     Version: 1.0.0.2
 //
 // |---------DO-NOT-REMOVE---------|
